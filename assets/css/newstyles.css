@@ -65,7 +65,7 @@ body {
 .social-link {
     margin-top: 5px;
 }
-h1{
+#name {
     line-height: 0px;
 }
 
@@ -85,7 +85,7 @@ a {
 .individual-row {
     text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: baseline;
     align-items: center;
@@ -94,13 +94,18 @@ a {
     background: #fff;
     box-shadow: 2px 2px 4px 1px #000;
     padding: 20px;
+    text-align: justify;
 }
 #work-ex-container {
-    margin-top: 15px;
-    width: 95%;
+    flex-grow: 3;
+    margin-right: 5px;
 }
+/* .emptydiv {
+    flex-grow: 1;
+} */
 #education-container {
-    width: 95%;
+    margin-left: 5px;
+    flex-grow: 1;
 }
 
 @media(min-width: 768px) {
@@ -119,22 +124,5 @@ a {
         display: inline-block;
         vertical-align: text-top;
         flex: 1;
-    }
-    .individual-row {
-        text-align: center;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: baseline;
-        align-items: center;
-    }
-    #work-ex-container {
-        width: 61%;
-    }
-    .emptydiv {
-        flex: 1;
-    }
-    #education-container {
-        width: 32%;
     }
 }
