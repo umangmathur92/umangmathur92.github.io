@@ -88,7 +88,7 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: baseline;
-    align-items: center;
+    align-items: stretch;
 }
 .card-container {
     background: #fff;
@@ -100,14 +100,38 @@ a {
     flex-grow: 3;
     margin-right: 5px;
 }
-/* .emptydiv {
-    flex-grow: 1;
-} */
 #education-container {
     margin-left: 5px;
     flex-grow: 1;
 }
-
+.company-content {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: initial;
+}
+.company-logo-container {
+    margin-right: 10px;
+}
+.company-logo {
+    height: 80px;
+    width: 80px;
+}
+.job-position {
+    padding: 0px;
+    margin: 0px;
+}
+.work-dates {
+    padding: 0px;
+    margin-top: 4px;
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+.job-description {
+    margin-top: 4px;
+}
 @media(min-width: 768px) {
     .container {
         text-align: justify;
