@@ -1,0 +1,23 @@
+url: "https://umangmathur.com/"
+# This will require each of these plugins automatically.
+plugins:
+  - jekyll-gist
+  - jekyll-coffeescript
+  - jekyll-assets
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-github-metadata
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+  - jekyll-seo-tag
+  - jekyll-avatar
+  - jekyll-include-cache
+
+
