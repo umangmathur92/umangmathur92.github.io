@@ -96,6 +96,9 @@ a {
     padding: 20px;
     text-align: justify;
 }
+.card-container-fill {
+    width: 100%;
+}
 #work-ex-container {
     flex-grow: 3;
 }
@@ -147,7 +150,7 @@ a {
     height: 40px;
     width: 40px;
 }
-.degree-name, .university-name {
+.degree-name, .university-name, .skill-name {
     padding: 0px;
     margin: 0px;
 }
@@ -168,6 +171,27 @@ a {
     box-shadow: 0.5px 0.5px 0.5px 0.5px #000;
     margin-right: 10px;
     display: inline;
+}
+.skill-content {
+    height: 40px;
+    padding: 10px;
+}
+.skill-logo-container {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+.skill-logo {
+    height: 40px;
+    width: 40px;
+}
+.individual-skill-content {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: initial;
 }
 @media(min-width: 768px) {
     .container {
