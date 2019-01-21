@@ -216,3 +216,7 @@ a {
         margin-right: 5px;
     }
 }
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
