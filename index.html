@@ -1,59 +1,28 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130683955-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-130683955-1');
-        </script>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Umang Mathur's Portfolio Website.">
-        <meta name="author" content="Umang Mathur">
-        <title>Umang Mathur</title>
-        <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
-            <style>
-        /* Reset body margins and ensure it fills the whole viewport */
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-
-        iframe {
-            border: none; /* Remove iframe border */
-            width: 100%;  /* Full width */
-            height: 100%; /* Full height */
-        }
-    </style>
-
-    </head>
+<html lang="en">
+<head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-130683955-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-130683955-1');
+	</script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Umang Mathur">
+	<meta name="description" content="Umang and Vrinda's Wedding Timeline.">
+	<title>Umang weds Vrinda</title>
+	<link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+</head>
 <body>
-    <canvas id="pdf-canvas"></canvas>
-    <script>
-        const url = 'https://drive.google.com/file/d/1nZ9MBymJe-e1ZGUuYKfS5e0VHZctXGD0/view?usp=sharing';
-
-        const pdfjsLib = window['pdfjs-dist/build/pdf'];
-        pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://mozilla.github.io/pdf.js/build/pdf.worker.js';
-
-        const canvas = document.getElementById('pdf-canvas');
-        const ctx = canvas.getContext('2d');
-
-        pdfjsLib.getDocument(url).promise.then(pdf => {
-            pdf.getPage(1).then(page => {
-                const viewport = page.getViewport({ scale: 1 });
-                canvas.width = viewport.width;
-                canvas.height = viewport.height;
-
-                page.render({
-                    canvasContext: ctx,
-                    viewport: viewport
-                });
-            });
-        });
-    </script>
+	<div style="position: relative; width: 100%; height: 0; padding-top: 134.1463%;
+	padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+	border-radius: 8px; will-change: transform;">
+	<iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+	src="https://www.canva.com/design/DAGcMB9fFto/qFWdGlb4WoRaMMCx-mj1-w/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+</iframe>
+</div>
 </body>
-</html> 
+</html>
+
